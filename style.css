@@ -1,62 +1,86 @@
+button{
+  border: #BB7259;
+  background-color:#BB7259;
+  color: lightgray;
+  width: 180px;
+  height: 50px;
+  font-family: 'JetBrains Mono', monospace;
+}
 header{
-
+  border: solid red 2px;
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
 
 }
+h1{
+  font-family: 'Arimo', sans-serif;
 
+}
 h2{
   font-family: 'Dancing Script', cursive;
 }
 
 nav{
-
+  float: right;
 }
 
-.phead{
+
+footer{
 
 }
-
-.divhead{
-
-}
-
-.hr{
-  background-image: url(./img/hr-img.png);
-  width: 80%;
-  height: 15px;
-}
-
-.section1{
-
-}
-
-h1{
-  font-family: 'Arimo', sans-serif;
-
-}
-
-.p2{
-
-}
-
-.mainp{
-  font-family: 'Josefin Slab', serif;
-}
-
-.imgdiv{
-  background-image: url(./img/list-bg.png);
-  background-repeat: no-repeat;
-  height: 200px;
-
-}
-
 ul{
 display: flex;
 
 }
 
 li{
-  list-style-type: none ;
+  list-style-type: none;
+  font-family: 'Varela Round', sans-serif;
 }
+  
+.phead{
+  
+}
+  
+.divhead{
+  
+}
+
+.hr{
+  background-image: url(./img/hr-img.png);
+  width: 900px;
+  height: 15px;
+}
+
+.logo1{
+
+}
+.section1{
+  /* display: flex; */
+  /* display: flex; */
+  justify-content: space-between;
+  width: 900px;
+}
+
+.p2{
+  font-family: 'JetBrains Mono', monospace;
+  color: gray;
+}
+
+.mainp{
+  font-family: 'Josefin Slab', serif;
+  width: 900px;
+}
+
+.imgdiv{
+  background-image: url(./img/list-bg.png);
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 900px;
+
+}
+
 
 .column1{
  flex: 50%;
@@ -65,11 +89,16 @@ li{
 .column2{
   flex: 50%;
 }
-
-button{
-  background-color: ;
+/* .print-icon{
+  float: right; 
+} */
+#logo{
+  float: left;
 }
 
-footer{
-
+#left{
+  float: left;
+}
+#right{
+  float: right;
 }
