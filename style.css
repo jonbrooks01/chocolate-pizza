@@ -1,0 +1,75 @@
+header{
+
+
+}
+
+h2{
+  font-family: 'Dancing Script', cursive;
+}
+
+nav{
+
+}
+
+.phead{
+
+}
+
+.divhead{
+
+}
+
+.hr{
+  background-image: url(./img/hr-img.png);
+  width: 80%;
+  height: 15px;
+}
+
+.section1{
+
+}
+
+h1{
+  font-family: 'Arimo', sans-serif;
+
+}
+
+.p2{
+
+}
+
+.mainp{
+  font-family: 'Josefin Slab', serif;
+}
+
+.imgdiv{
+  background-image: url(./img/list-bg.png);
+  background-repeat: no-repeat;
+  height: 200px;
+
+}
+
+ul{
+display: flex;
+
+}
+
+li{
+  list-style-type: none ;
+}
+
+.column1{
+ flex: 50%;
+}
+
+.column2{
+  flex: 50%;
+}
+
+button{
+  background-color: ;
+}
+
+footer{
+
+}
