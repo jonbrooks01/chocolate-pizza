@@ -5,97 +5,124 @@ button{
   width: 180px;
   height: 50px;
   font-family: 'JetBrains Mono', monospace;
+  float: right;
+  position: relative;
 }
 header{
-  border: solid red 2px;
   display: flex;
   justify-content: space-between;
   width: 900px;
-
 }
 h1{
   font-family: 'Arimo', sans-serif;
-
+  margin: 0px;
+  padding: 0px;
 }
 h2{
   font-family: 'Dancing Script', cursive;
 }
-
 nav{
   float: right;
 }
-
-
-footer{
-
+footer{ 
+  text-align: center;
+  width: 900px;
 }
 ul{
 display: flex;
-
+justify-content: center; 
 }
-
 li{
   list-style-type: none;
   font-family: 'Varela Round', sans-serif;
+  padding: 5px;
+  margin-top: 5px;
 }
-  
 .phead{
-  
+  font-family: 'JetBrains Mono', monospace;
+  color: gray;
+  font-size: small;
+  margin: 0;
+  padding-bottom: 10px;
 }
-  
-.divhead{
-  
+.footer{
+  text-align: center;
 }
-
 .hr{
   background-image: url(./img/hr-img.png);
   width: 900px;
   height: 15px;
-}
-
-.logo1{
+  margin: 10px;
 
 }
+.footer span{
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+  display: inline-block;
+  position: relative;
+}
+
+.footer span:before,
+.footer span:after {
+ border: 1px solid black;
+ content: "";
+ height: 1px;
+ position: absolute;
+ top: 0;
+ /* vertical-align: middle; */
+ width: 400px;
+}
+.footer span:before {
+ right: 100%;
+ margin-right: 15px;
+}
+.footer span:after {
+ left: 100%;
+ margin-left: 15px;
+}
+
 .section1{
   /* display: flex; */
   /* display: flex; */
   justify-content: space-between;
   width: 900px;
+  margin: 0px;
+  padding: 0px;
 }
-
 .p2{
   font-family: 'JetBrains Mono', monospace;
   color: gray;
+  font-size: small;
+  margin: 0;
+  padding-bottom: 10px;
 }
-
+.print-icon {
+  display: inline-block;
+  float: right;
+}
 .mainp{
   font-family: 'Josefin Slab', serif;
   width: 900px;
 }
-
 .imgdiv{
   background-image: url(./img/list-bg.png);
   background-repeat: no-repeat;
-  height: 200px;
+  height: 300px;
   width: 900px;
-
 }
-
-
 .column1{
  flex: 50%;
 }
-
 .column2{
   flex: 50%;
 }
-/* .print-icon{
-  float: right; 
-} */
+#author {
+  float: left;
+}
 #logo{
   float: left;
 }
-
 #left{
   float: left;
 }
