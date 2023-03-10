@@ -7,15 +7,21 @@
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Dancing+Script:wght@500&family=Josefin+Slab:wght@100&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Dancing+Script:wght@500&family=JetBrains+Mono:wght@100&family=Josefin+Slab:wght@100&family=Varela+Round&display=swap" rel="stylesheet">
   
   <title>Document</title>
 
 </head>
 <header>
-  <img src="./img/logo.png" alt="Restaurant logo">
+  <div class="logo1">
+  <img id ="logo" src="./img/logo.png" alt="Restaurant logo">
   <h2>Delicious</h2>
   <p class="phead">THE BEST FOOD BLOG ON THE WEB</p>
+  </div>
   <nav>
     <div class="divhead">
     <img src="./img/fb-icon.png" alt="Facebook">
@@ -28,17 +34,18 @@
     <img src="./img/mail-icon.png" alt="Mail">
     </div>  
   </nav>
-  <div class="hr">
-    <img src="./img/hr-img.png" alt="">
-  </div>
 </header>
+<div class="hr">
+  <img src="./img/hr-img.png" alt="">
+</div>
 <body>
   <section class="section1">
-  <h1>Chocolate Pizza</h1>
-  <p class="p2">POSTED ON 15 DEC 2013 / DESSERTS</p>
-  <img src="./img/print-icon.png" alt="">
-  <p class="p2">PRINT</p>
-  <img src="./img/choco-pizza.png" alt="">
+    <h1>Chocolate Pizza</h1>
+    <p class="p2" id="left">POSTED ON 15 DEC 2013 / DESSERTS</p>
+  <div class="print-icon">
+    <p class="p2" id="right"><img src="./img/print-icon.png" alt="">PRINT</p>
+  </div>
+    <img src="./img/choco-pizza.png" alt="">
   </section>
 
   <section class="mainp">
@@ -72,15 +79,16 @@
     <img src="./img/hr-img.png" alt="">
   </div>
   <section>
-    <img src="./img/van-pic.png" alt="">
+    <img id ="author" src="./img/van-pic.png" alt="">
     <h3>Vanessa Stevenson</h3>
-    <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
-    <button>SHARE RECIPE</button>
+    <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.<button>SHARE RECIPE</button></p>
+    
   </section>
   <footer>
-    <img src="./img/logo.png" alt="Restaurant Logo">
+    <div class="footer"><span><img class="logo2" src="./img/logo.png" alt="Restaurant Logo"></span>
     <p>Delicious &copy 2013 &#9679 ALL Rights Reserved.</p>
     <p>Proudly published with Ghost.</p>
+    </div>
   </footer>
 </body>
 <script src="app.js"></script>
